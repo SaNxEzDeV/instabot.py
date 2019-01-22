@@ -10,12 +10,12 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="TopTechTool",
+    password="8InstagramSantos9!!",
     like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109'],
-    tag_blacklist=['rain', 'thunderstorm'],
+    comments_per_day=500,
+    tag_list=['technologies', 'techworld', 'tech', 'future', 'gadgets', 'smarthome', 'ingenieering', 'futurism', 'tecnologia', 'dispositivos'],
+    tag_blacklist=[''],
     user_blacklist={},
     max_like_for_one_tag=50,
     follow_per_day=300,
@@ -27,16 +27,42 @@ bot = InstaBot(
     proxy='',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
-    comment_list=[["this", "the", "your"],
-                  ["photo", "picture", "pic", "shot", "snapshot"],
-                  ["is", "looks", "feels", "is really"],
-                  ["great", "super", "good", "very good", "good", "wow",
-                   "WOW", "cool", "GREAT","magnificent", "magical",
-                   "very cool", "stylish", "beautiful", "so beautiful",
-                   "so stylish", "so professional", "lovely",
-                   "so lovely", "very lovely", "glorious","so glorious",
-                   "very glorious", "adorable", "excellent", "amazing"],
-                  [".", "..", "...", "!", "!!", "!!!"]],
+    comment_list_en=[["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"],
+
+                  ["foto","" "imagen", "pic", "shot", "snapshot", "caption", "message"],
+
+                  ["is", "looks", "feels", "is really", "blows my mind, it's", "is just"
+                  "makes me feel great, it's"],
+
+                  ["great, thanks for sharing this", "super, thanks for sharing, we love it", 
+                    "good, thanks for that", "very good, we really like it", "super good, glad to see things like this",
+                    "wow... thanks for this", "WOW....thanks a lot for this", "cool thanks for sharing",
+                    "GREAT, we really like it","magnificent, we really like it", "magical, thanks for sharing",
+                    "very cool....thanks a lot for this", "stylish", "beautiful", "so beautiful",
+                    "so professional, glad to see things like that", "lovely, we really like it", "incredible, awesome to see things like that", 
+                    "excellent, thanks a lot for this", "amazing, we really like this kind of things"],
+
+                  [".", "..", "...", "!", "!!", "!!!"],
+                  ["=)", ":)", ":-)", "^^"]
+                  ],
+
+    comment_list_es=[["Menuda", "Increible", "Esta", "Wow", "Vaya", "Vaya pedazo"],
+
+                  ["foto", "imagen", "pic","fotazo", "mensaje"],
+
+                  ["es", "nos parece", "es realmente", "es increiblemente", "nos ha dejado locos, es", "me parece"],
+                 
+                  ["genial, muchisimas gracias por compartir", "increible, gracias por sharing", "enorme el poder ver cosas asi", 
+                  "muy buena, me ha encantado", "super buena, nos ha encantado, gracias", "wow...nos ha gustado mucho, gracias",
+                   "WOW, muchisimas gracias", "INCREIBLE, muchas gracias por compartir",
+                   "magnifica, agradecemos gente compartiendo cosas asi", "magica, muchas gracias",
+                   "super chula, muchisimas gracias por compartir",
+                   "professional, lo recomiendo", "super interesante, muchas gracias",
+                    "excelente, gracias", "increible, enhorabuena", "impresionante, gracias"],
+
+                  [".", "..", "...", "!", "!!", "!!!"],
+                  ["=)", ":)", ":-)", "^^"]
+                  ],
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
