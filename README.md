@@ -1,17 +1,37 @@
 # InstaBot
 
----
+Instabot is a toolkit written in Python for building Instagram bots using the undocumented private API. 
 
-### Since the bot has received major updates the past few days, very old issues have been closed. If you're still experiencing any problems with the latest version, please feel free to reopen them.
+Please do not clone this repo and publish it as your own. Fork the repo if you wish to publish any changes.
 
-### Please do not clone this repo and publish it as your own. Fork the repo if you wish to publish any changes.
-
----
-
-> Toolkit for building automated Instagram bots without direct access to the Instagram API or passsing through the review process.
-
-[![Donate](https://img.shields.io/badge/PayPal-Donate-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=7BMM6JGE73322&lc=US)
+[![Donate](https://img.shields.io/badge/PayPal-Donate%20to%20Author-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=7BMM6JGE73322&lc=US)
 [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/joinchat/DYKH-0G_8hsDDoN_iE8ZlA)
+[![Chat on IRC](https://img.shields.io/badge/Chat%20on%20IRC-freenode.net%23instabot-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.freenode.net/?nick=insta?#instabot)
+
+
+## Requirements
+
+- Python v3.6 or greater
+- pip v18 or greater
+- Install requirements.txt (requests, fake-useragent, instaloader)
+
+## Getting started
+
+- `git clone https://github.com/instabot-py/instabot.py.git && cd instabot.py` or [download zip](https://github.com/instabot-py/instabot.py/archive/master.zip).
+
+- Head into your virtual environment and use `pip` or `pip3` depending on your installation:
+```
+pip3 install -r requirements.txt
+```
+
+- For a quick & dirty test run, use `run.py`
+```
+python3 run.py
+```
+Depending on your operating system and python installation, you might need to use `py`, `python`, or `python3`.
+
+- To set extra parameters and more sophisticated configurations, copy and edit `example.py` and run.
+
 
 ## Parameters
 | Parameter            | Type|                Description                           |        Default value             |
@@ -29,7 +49,9 @@
 | media_min_like       | int | Minimum number of likes on photos to like (set to 0 to disable) | 0    |
 | follow_per_day       | int | Users to follow per day                              | 0    |
 | follow_time          | int | Seconds to wait before unfollowing                   | 5 * 60 * 60 |
+| follow_time_enabled  | bool| Whether to wait seconds set in follow_time before unfollowing | True |
 | unfollow_per_day     | int | Users to unfollow per day                            | 0    |
+| unfollow_recent_feed | bool| If enabled, will populate database with users from recent feed and unfollow if they meet the conditions. Disable if you only want the bot to unfollow people it has previously followed. | True |
 | comments_per_day     | int | Comments to post per day                             | 0    |
 | comment_list         | [[str]] | List of word lists for comment generation        | [['this', 'your'], ['photo', 'picture', 'pic', 'shot'], ['is', 'looks', 'is really'], ['great', 'super', 'good'], ['.', '...', '!', '!!']] |
 | tag_list             | [str] | Tags to use for finding posts by hasthag or location(l:locationid from e.g. https://www.instagram.com/explore/locations/212999109/los-angeles-california/)                     | ['cat', 'car', 'dog', 'l:212999109'] |
@@ -94,3 +116,4 @@ The following video tutorials demo setting up and running the bot:
 
 - [Telegram Group](https://t.me/joinchat/DYKH-0G_8hsDDoN_iE8ZlA)
 - [Facebook Group](https://www.facebook.com/groups/instabot/)
+- [IRC Channel on Freenode.net #instabot](http://webchat.freenode.net?channels=%23instabot)

@@ -71,7 +71,7 @@ class InstaBot:
     https://github.com/LevPasha/instabot.py
     """
 
-    database_name = None
+    database_name = "follows_db.db"
     session_file = None
     follows_db = None
     follows_db_c = None
@@ -113,7 +113,6 @@ class InstaBot:
     current_user = "hajka"
     current_index = 0
     current_id = "abcds"
-    
     # List of user_id, that bot follow
     bot_follow_list = []
     user_info_list = []
@@ -162,25 +161,23 @@ class InstaBot:
         "Populate": 0,
     }
     prog_run = True
-
-    def __init__(
-        self,
-        login,
-        password,
-        like_per_day=1000,
-        media_max_like=150,
-        media_min_like=0,
-        follow_per_day=0,
-        follow_time=5 * 60 * 60,  # Cannot be zero
-        follow_time_enabled=True,
-        unfollow_per_day=0,
-        unfollow_recent_feed=True,
-        start_at_h=0,
-        start_at_m=0,
-        end_at_h=23,
-        end_at_m=59,
-        database_name=None,
-        session_file=None,
+<<<<<<< HEAD
+    
+    def __init__(self,
+                 login,
+                 password,
+                 like_per_day=1000,
+                 media_max_like=150,
+                 media_min_like=0,
+                 follow_per_day=0,
+                 follow_time=5 * 60 * 60, #Cannot be zero
+                 unfollow_per_day=0,
+                 start_at_h=0,
+                 start_at_m=0,
+                 end_at_h=23,
+                 end_at_m=59,
+                 database_name='follows_db.db',
+                 session_file=None,
                  
                  comment_list_en=[["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"],
                   ["foto","" "imagen", "pic", "shot", "snapshot", "caption", "message"],
@@ -217,6 +214,71 @@ class InstaBot:
                   [".", "..", "...", "!", "!!", "!!!"],
                   ["=)", ":)", ":-)", "^^"]
                  ],
+                 comments_per_day=0,
+                 tag_list=['cat', 'car', 'dog'],
+                 max_like_for_one_tag=5,
+                 unfollow_break_min=15,
+                 unfollow_break_max=30,
+                 log_mod=0,
+                 proxy="",
+                 user_blacklist={},
+                 tag_blacklist=[],
+                 unwanted_username_list=[],
+                 unfollow_whitelist=[]):
+=======
+
+    def __init__(
+        self,
+        login,
+        password,
+        like_per_day=1000,
+        media_max_like=150,
+        media_min_like=0,
+        follow_per_day=0,
+        follow_time=5 * 60 * 60,  # Cannot be zero
+        follow_time_enabled=True,
+        unfollow_per_day=0,
+        unfollow_recent_feed=True,
+        start_at_h=0,
+        start_at_m=0,
+        end_at_h=23,
+        end_at_m=59,
+        database_name="follows_db.db",
+        session_file=None,
+        comment_list=[
+            ["this", "the", "your"],
+            ["photo", "picture", "pic", "shot", "snapshot"],
+            ["is", "looks", "feels", "is really"],
+            [
+                "great",
+                "super",
+                "good",
+                "very good",
+                "good",
+                "wow",
+                "WOW",
+                "cool",
+                "GREAT",
+                "magnificent",
+                "magical",
+                "very cool",
+                "stylish",
+                "beautiful",
+                "so beautiful",
+                "so stylish",
+                "so professional",
+                "lovely",
+                "so lovely",
+                "very lovely",
+                "glorious",
+                "so glorious",
+                "very glorious",
+                "adorable",
+                "excellent",
+                "amazing",
+            ],
+            [".", "..", "...", "!", "!!", "!!!"],
+        ],
         comments_per_day=0,
         tag_list=["cat", "car", "dog"],
         max_like_for_one_tag=5,
@@ -229,15 +291,12 @@ class InstaBot:
         unwanted_username_list=[],
         unfollow_whitelist=[],
     ):
+>>>>>>> master
 
         self.session_file = session_file
-
-        if database_name is not None:
-            self.database_name = database_name
-        else:
-            self.database_name = f"{login.lower()}.db"
+        self.database_name = database_name
         self.follows_db = sqlite3.connect(
-            self.database_name, timeout=0, isolation_level=None
+            database_name, timeout=0, isolation_level=None
         )
         self.follows_db_c = self.follows_db.cursor()
         check_and_update(self)
@@ -1050,7 +1109,10 @@ class InstaBot:
                 self.write_log('# ------------------- Unfollow -------------------')
                 self.new_auto_mod_unfollow()
                 # ------------------- Comment -------------------
+<<<<<<< HEAD
                 self.write_log('# ------------------- Comment -------------------')
+=======
+>>>>>>> master
                 self.new_auto_mod_comments()
                 # Bot iteration in 1 sec
                 time.sleep(5)

@@ -13,9 +13,15 @@ bot = InstaBot(
     login="TopTechTool",
     password="8InstagramSantos9!!",
     like_per_day=1000,
+<<<<<<< HEAD
     comments_per_day=500,
     tag_list=['technologies', 'techworld', 'tech', 'future', 'gadgets', 'smarthome', 'ingenieering', 'futurism', 'tecnologia', 'dispositivos'],
     tag_blacklist=[''],
+=======
+    comments_per_day=0,
+    tag_list=["follow4follow", "f4f", "cute", "l:212999109"],
+    tag_blacklist=["rain", "thunderstorm"],
+>>>>>>> master
     user_blacklist={},
     max_like_for_one_tag=50,
     follow_per_day=300,
@@ -27,6 +33,7 @@ bot = InstaBot(
     proxy="",
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
+<<<<<<< HEAD
     comment_list_en=[["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"],
 
                   ["foto","" "imagen", "pic", "shot", "snapshot", "caption", "message"],
@@ -63,19 +70,101 @@ bot = InstaBot(
                   [".", "..", "...", "!", "!!", "!!!"],
                   ["=)", ":)", ":-)", "^^"]
                   ],
+=======
+    comment_list=[
+        ["this", "the", "your"],
+        ["photo", "picture", "pic", "shot", "snapshot"],
+        ["is", "looks", "feels", "is really"],
+        [
+            "great",
+            "super",
+            "good",
+            "very good",
+            "good",
+            "wow",
+            "WOW",
+            "cool",
+            "GREAT",
+            "magnificent",
+            "magical",
+            "very cool",
+            "stylish",
+            "beautiful",
+            "so beautiful",
+            "so stylish",
+            "so professional",
+            "lovely",
+            "so lovely",
+            "very lovely",
+            "glorious",
+            "so glorious",
+            "very glorious",
+            "adorable",
+            "excellent",
+            "amazing",
+        ],
+        [".", "..", "...", "!", "!!", "!!!"],
+    ],
+>>>>>>> master
     # Use unwanted_username_list to block usernames containing a string
     # Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     # 'free_followers' will be blocked because it contains 'free'
     unwanted_username_list=[
-        'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',
-        'free', 'keren', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
-        'store', 'sex', 'toko', 'jual', 'online', 'murah', 'jam', 'kaos',
-        'case', 'baju', 'fashion', 'corp', 'tas', 'butik', 'grosir', 'karpet',
-        'sosis', 'salon', 'skin', 'care', 'cloth', 'tech', 'rental', 'kamera',
-        'beauty', 'express', 'kredit', 'collection', 'impor', 'preloved',
-        'follow', 'follower', 'gain', '.id', '_id', 'bags'
+        "second",
+        "stuff",
+        "art",
+        "project",
+        "love",
+        "life",
+        "food",
+        "blog",
+        "free",
+        "keren",
+        "photo",
+        "graphy",
+        "indo",
+        "travel",
+        "art",
+        "shop",
+        "store",
+        "sex",
+        "toko",
+        "jual",
+        "online",
+        "murah",
+        "jam",
+        "kaos",
+        "case",
+        "baju",
+        "fashion",
+        "corp",
+        "tas",
+        "butik",
+        "grosir",
+        "karpet",
+        "sosis",
+        "salon",
+        "skin",
+        "care",
+        "cloth",
+        "tech",
+        "rental",
+        "kamera",
+        "beauty",
+        "express",
+        "kredit",
+        "collection",
+        "impor",
+        "preloved",
+        "follow",
+        "follower",
+        "gain",
+        ".id",
+        "_id",
+        "bags",
     ],
-    unfollow_whitelist=['example_user_1', 'example_user_2'])
+    unfollow_whitelist=["example_user_1", "example_user_2"],
+)
 while True:
 
     # print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
@@ -121,7 +210,7 @@ while True:
 
     elif mode == 3:
         bot.bot_mode = 3
-        while(bot.login_status == 1):
+        while bot.login_status == 1:
             bot.unfollow_recent_feed()
             time.sleep(5)
 

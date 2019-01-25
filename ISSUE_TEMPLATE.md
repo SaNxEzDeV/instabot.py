@@ -1,5 +1,6 @@
 <!--
 Before opening a new issue, please ensure:
+- YOU HAVE READ THE ISSUE GUIDELINES! -> https://github.com/instabot-py/instabot.py/wiki/Issue-Guidelines
 - You search for existing bugs/feature requests
 - Remove extraneous template details
 - Do not prefix title with type of issue (Feature Request, Bug, etc.) The appropriate labels will be added during triage.
@@ -9,11 +10,7 @@ Before opening a new issue, please ensure:
 -->
 
 Check this or we will delete your issue. (fill in the checkbox with an X like so: [x])
-- [ ] I have searched for other issues with the same problem. (including #1153)
-
-## Hosting
-- [ ] Are you hosting the bot on a VPS or other Cloud hosting?
-- [ ] If so; have you tried running the code on your local machine?
+- [ ] I have searched for other issues with the same problem or similar feature requests. 
 
 #### Select one:
 - [ ] Bug
@@ -21,23 +18,37 @@ Check this or we will delete your issue. (fill in the checkbox with an X like so
 - [ ] Technical Help
 - [ ] Other
 
-### Operating System? (include version)
-- [ ] MAC
+#### Environment
+- [ ] Are you hosting the bot on a VPS or other Cloud hosting?
+- [ ] If so, have you tried running the code on your local machine?
+
+#### Operating System? (include version)
+- [ ] macOS
 - [ ] Windows
-- [ ] Linux
-- [ ] Android
+- [ ] Linux (include flavour)
+- [ ] Android (include terminal)
 
-## Python Version?
-- [ ] 2.x
-- [ ] 3.x
 
-## Description of your issue
+#### Python Version Requirement
+- [ ] I am using Python 3.6 or above
+
+#### Exact Python Version?
+```
+Include here the response of 'python --version' or 'python3 --version'
+```
+
+#### Pip Version?
+```
+Include here the response of 'pip --version' or 'pip3 --version'
+```
+
+#### Description of your issue
 
 ```
 Include the contents of the error.log here (if applicable). < REPLACE THIS TEXT
 ```
 
-## Config
+#### Config
 
 ```
 Include the contents of your config here (REMOVE YOUR USERNAME AND PASSWORD!) (if applicable). < REPLACE THIS TEXT
