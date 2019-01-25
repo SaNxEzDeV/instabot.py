@@ -71,7 +71,7 @@ class InstaBot:
     https://github.com/LevPasha/instabot.py
     """
 
-    database_name = None
+    database_name = "follows_db.db"
     session_file = None
     follows_db = None
     follows_db_c = None
@@ -113,7 +113,6 @@ class InstaBot:
     current_user = "hajka"
     current_index = 0
     current_id = "abcds"
-    
     # List of user_id, that bot follow
     bot_follow_list = []
     user_info_list = []
@@ -162,6 +161,71 @@ class InstaBot:
         "Populate": 0,
     }
     prog_run = True
+<<<<<<< HEAD
+    
+    def __init__(self,
+                 login,
+                 password,
+                 like_per_day=1000,
+                 media_max_like=150,
+                 media_min_like=0,
+                 follow_per_day=0,
+                 follow_time=5 * 60 * 60, #Cannot be zero
+                 unfollow_per_day=0,
+                 start_at_h=0,
+                 start_at_m=0,
+                 end_at_h=23,
+                 end_at_m=59,
+                 database_name='follows_db.db',
+                 session_file=None,
+                 
+                 comment_list_en=[["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"],
+                  ["foto","" "imagen", "pic", "shot", "snapshot", "caption", "message"],
+
+                  ["is", "looks", "feels", "is really", "blows my mind, it's", "is just"
+                  "makes me feel great, it's"],
+
+                  ["great, thanks for sharing this", "super, thanks for sharing, we love it", 
+                    "good, thanks for that", "very good, we really like it", "super good, glad to see things like this",
+                    "wow... thanks for this", "WOW....thanks a lot for this", "cool thanks for sharing",
+                    "GREAT, we really like it","magnificent, we really like it", "magical, thanks for sharing",
+                    "very cool....thanks a lot for this", "stylish", "beautiful", "so beautiful",
+                    "so professional, glad to see things like that", "lovely, we really like it", "incredible, awesome to see things like that", 
+                    "excellent, thanks a lot for this", "amazing, we really like this kind of things"],
+
+                  [".", "..", "...", "!", "!!", "!!!"],
+                  ["=)", ":)", ":-)", "^^"]
+                  ],
+                  
+                  comment_list_es=[["Menuda", "Increible", "Esta", "Wow", "Vaya", "Vaya pedazo"],
+
+                  ["foto", "imagen", "pic","fotazo", "mensaje"],
+
+                  ["es", "nos parece", "es realmente", "es increiblemente", "nos ha dejado locos, es", "me parece"],
+                 
+                  ["genial, muchisimas gracias por compartir", "increible, gracias por sharing", "enorme el poder ver cosas asi", 
+                  "muy buena, me ha encantado", "super buena, nos ha encantado, gracias", "wow...nos ha gustado mucho, gracias",
+                   "WOW, muchisimas gracias", "INCREIBLE, muchas gracias por compartir",
+                   "magnifica, agradecemos gente compartiendo cosas asi", "magica, muchas gracias",
+                   "super chula, muchisimas gracias por compartir",
+                   "professional, lo recomiendo", "super interesante, muchas gracias",
+                    "excelente, gracias", "increible, enhorabuena", "impresionante, gracias"],
+
+                  [".", "..", "...", "!", "!!", "!!!"],
+                  ["=)", ":)", ":-)", "^^"]
+                 ],
+                 comments_per_day=0,
+                 tag_list=['cat', 'car', 'dog'],
+                 max_like_for_one_tag=5,
+                 unfollow_break_min=15,
+                 unfollow_break_max=30,
+                 log_mod=0,
+                 proxy="",
+                 user_blacklist={},
+                 tag_blacklist=[],
+                 unwanted_username_list=[],
+                 unfollow_whitelist=[]):
+=======
 
     def __init__(
         self,
@@ -179,7 +243,7 @@ class InstaBot:
         start_at_m=0,
         end_at_h=23,
         end_at_m=59,
-        database_name=None,
+        database_name="follows_db.db",
         session_file=None,
         comment_list=[
             ["this", "the", "your"],
@@ -227,15 +291,12 @@ class InstaBot:
         unwanted_username_list=[],
         unfollow_whitelist=[],
     ):
+>>>>>>> master
 
         self.session_file = session_file
-
-        if database_name is not None:
-            self.database_name = database_name
-        else:
-            self.database_name = f"{login.lower()}.db"
+        self.database_name = database_name
         self.follows_db = sqlite3.connect(
-            self.database_name, timeout=0, isolation_level=None
+            database_name, timeout=0, isolation_level=None
         )
         self.follows_db_c = self.follows_db.cursor()
         check_and_update(self)
@@ -276,7 +337,8 @@ class InstaBot:
         self.user_blacklist = user_blacklist
         self.tag_blacklist = tag_blacklist
         self.unfollow_whitelist = unfollow_whitelist
-        self.comment_list = comment_list
+        self.comment_list_es = comment_list_es
+        self.comment_list_en = comment_list_en
         self.instaloader = instaloader.Instaloader()
         self.unfollow_recent_feed = unfollow_recent_feed
 
@@ -1038,15 +1100,23 @@ class InstaBot:
                     )
                     self.remove_already_liked()
                 # ------------------- Like -------------------
+                self.write_log('# ------------------- Like -------------------')
                 self.new_auto_mod_like()
                 # ------------------- Follow -------------------
+                self.write_log('# ------------------- Follow -------------------')
                 self.new_auto_mod_follow()
                 # ------------------- Unfollow -------------------
+                self.write_log('# ------------------- Unfollow -------------------')
                 self.new_auto_mod_unfollow()
                 # ------------------- Comment -------------------
+<<<<<<< HEAD
+                self.write_log('# ------------------- Comment -------------------')
+=======
+>>>>>>> master
                 self.new_auto_mod_comments()
                 # Bot iteration in 1 sec
-                time.sleep(3)
+                time.sleep(5)
+                
                 # print("Tic!")
             else:
                 print(
@@ -1217,7 +1287,11 @@ class InstaBot:
         return time * 0.9 + time * 0.2 * random.random()
 
     def generate_comment(self):
-        c_list = list(itertools.product(*self.comment_list))
+
+        if random.randint(1,2)==1:
+            c_list = list(itertools.product(*self.comment_list_en))
+        else:
+            c_list = list(itertools.product(*self.comment_list_es))
 
         repl = [("  ", " "), (" .", "."), (" !", "!")]
         res = " ".join(random.choice(c_list))

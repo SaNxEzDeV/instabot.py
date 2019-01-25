@@ -71,7 +71,7 @@ class InstaBot:
     https://github.com/LevPasha/instabot.py
     """
 
-    database_name = None
+    database_name = "follows_db.db"
     session_file = None
     follows_db = None
     follows_db_c = None
@@ -113,7 +113,6 @@ class InstaBot:
     current_user = "hajka"
     current_index = 0
     current_id = "abcds"
-    
     # List of user_id, that bot follow
     bot_follow_list = []
     user_info_list = []
@@ -179,7 +178,7 @@ class InstaBot:
         start_at_m=0,
         end_at_h=23,
         end_at_m=59,
-        database_name=None,
+        database_name="follows_db.db",
         session_file=None,
         comment_list=[
             ["this", "the", "your"],
@@ -229,13 +228,9 @@ class InstaBot:
     ):
 
         self.session_file = session_file
-
-        if database_name is not None:
-            self.database_name = database_name
-        else:
-            self.database_name = f"{login.lower()}.db"
+        self.database_name = database_name
         self.follows_db = sqlite3.connect(
-            self.database_name, timeout=0, isolation_level=None
+            database_name, timeout=0, isolation_level=None
         )
         self.follows_db_c = self.follows_db.cursor()
         check_and_update(self)
