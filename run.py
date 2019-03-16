@@ -46,10 +46,10 @@ def setupinteractive(config, config_location="config.ini"):
     config["DEFAULT"] = {
         "username": "none",
         "password": "none",
-        "like_per_day": 709,
-        "comments_per_day": 31,
-        "max_like_for_one_tag": 36,
-        "follow_per_day": 310,
+        "like_per_day": 809, 
+        "comments_per_day": 41,
+        "max_like_for_one_tag": 46,
+        "follow_per_day": 410,
         "follow_time": 3600,
         "unfollow_per_day": 297,
         "unfollow_break_min": 3,
@@ -165,6 +165,7 @@ def setupinteractive(config, config_location="config.ini"):
     print(
         "\n\n     >>> Setup Wizard >>>\n________________________________________________"
     )
+    
     confusername = None
     while confusername is None or len(confusername) < 3:
         confusername = str(input("Please enter the username you wish to configure: "))
