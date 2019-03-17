@@ -22,11 +22,11 @@ except:
     print(">>> Please install the latest version of pip")
 
 
-config_location = "config.ini"
+config_location = "/RAFAEL/GIT/instabot.py/config.ini"
 config = configparser.ConfigParser()
 
 
-def setupinteractive(config, config_location="config.ini"):
+def setupinteractive(config, config_location="/RAFAEL/GIT/instabot.py/config.ini"):
     if os.path.isfile(config_location):
         config.read(config_location)
 

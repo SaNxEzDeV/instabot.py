@@ -1,0 +1,1096 @@
+WARNING:fake_useragent:Error occurred during loading data. Trying to use cache server https://fake-useragent.herokuapp.com/browsers/0.1.11
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/usr/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/usr/lib/python3.6/http/client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/fake_useragent/utils.py", line 67, in get
+    context=context,
+  File "/usr/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/usr/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.6/urllib/request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.6/urllib/request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/fake_useragent/utils.py", line 166, in load
+    verify_ssl=verify_ssl,
+  File "/usr/local/lib/python3.6/dist-packages/fake_useragent/utils.py", line 122, in get_browser_versions
+    verify_ssl=verify_ssl,
+  File "/usr/local/lib/python3.6/dist-packages/fake_useragent/utils.py", line 84, in get
+    raise FakeUserAgentError('Maximum amount of retries reached')
+fake_useragent.errors.FakeUserAgentError: Maximum amount of retries reached
+INFO:topmodel_accessories:Checking for updates...
+INFO:topmodel_accessories:>>> UPDATE AVAILABLE <<< Please update Instabot. You are running an older version.
+INFO:topmodel_accessories:Instabot v1.2.1/0 started at 17.03.2019 01:22:
+INFO:topmodel_accessories:Found session file topmodel_accessories.session
+INFO:topmodel_accessories:topmodel_accessories login success!
+
+INFO:topmodel_accessories:Saving cookies to session file topmodel_accessories.session
+INFO:topmodel_accessories:Get Media by tag: dress
+INFO:topmodel_accessories:Checking for updates...
+INFO:topmodel_accessories:>>> UPDATE AVAILABLE <<< Please update Instabot. You are running an older version.
+INFO:topmodel_accessories:Instabot v1.2.1/0 started at 17.03.2019 01:22:
+INFO:topmodel_accessories:Found session file topmodel_accessories.session
+INFO:topmodel_accessories:topmodel_accessories login success!
+
+INFO:topmodel_accessories:Saving cookies to session file topmodel_accessories.session
+INFO:topmodel_accessories:Get Media by tag: tacones
+INFO:topmodel_accessories:Removing already liked medias..
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:Trying to like media: 2001231055500434533
+INFO:topmodel_accessories:Liked: 2001231055500434533. Like #1.
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:Trying to follow: 3208757736
+INFO:topmodel_accessories:Followed: 3208757736 #1.
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Trying to comment: 2001229511710461590
+INFO:topmodel_accessories:Write: Menuda imagen nos ha dejado locos, es magica, muchas gracias!! ^^. #1.
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:    >>>Waiting for database to populate before unfollowing (progress 15 /20)
+INFO:topmodel_accessories:Will try to populate using recent feed
+INFO:topmodel_accessories:topmodel_accessories : Get media id on recent feed
+INFO:topmodel_accessories:Media in recent feed = 11
+INFO:topmodel_accessories:Notice: could not populate from recent feed
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:Trying to like media: 2001211058183554710
+INFO:topmodel_accessories:Liked: 2001211058183554710. Like #2.
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:    >>>Waiting for database to populate before unfollowing (progress 15 /20)
+INFO:topmodel_accessories:Will try to populate using recent feed
+INFO:topmodel_accessories:topmodel_accessories : Get media id on recent feed
+INFO:topmodel_accessories:Media in recent feed = 11
+INFO:topmodel_accessories:Notice: could not populate from recent feed
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:Trying to like media: 2001197495656901619
+INFO:topmodel_accessories:Liked: 2001197495656901619. Like #3.
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Trying to unfollow: 3208757736
+INFO:topmodel_accessories:Unfollow: 3208757736 #1 of 1.
+INFO:topmodel_accessories:Pausing for 8 seconds... 1 of 1
+INFO:toptechtool:Checking for updates...
+INFO:toptechtool:>>> UPDATE AVAILABLE <<< Please update Instabot. You are running an older version.
+INFO:toptechtool:Instabot v1.2.1/0 started at 17.03.2019 02:12:
+INFO:toptechtool:Trying to login as toptechtool...
+INFO:topmodel_accessories:Checking for updates...
+INFO:topmodel_accessories:>>> UPDATE AVAILABLE <<< Please update Instabot. You are running an older version.
+INFO:topmodel_accessories:Instabot v1.2.1/0 started at 17.03.2019 02:12:
+INFO:topmodel_accessories:Found session file topmodel_accessories.session
+INFO:topmodel_accessories:topmodel_accessories login success!
+
+INFO:topmodel_accessories:Saving cookies to session file topmodel_accessories.session
+INFO:topmodel_accessories:Get Media by tag: mujeres
+INFO:topmodel_accessories:Removing already liked medias..
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:Trying to like media: 2001259541659995281
+INFO:toptechtool:toptechtool login success!
+
+INFO:toptechtool:Saving cookies to session file toptechtool.session
+INFO:toptechtool:Get Media by tag: ingeniería
+INFO:topmodel_accessories:Liked: 2001259541659995281. Like #1.
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:Trying to follow: 193205926
+INFO:topmodel_accessories:Followed: 193205926 #1.
+INFO:toptechtool:Removing already liked medias..
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:Trying to like media: 2001257729603314793
+INFO:toptechtool:Liked: 2001257729603314793. Like #1.
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:Trying to follow: 1206786707
+INFO:toptechtool:Followed: 1206786707 #1.
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:toptechtool:Trying to comment: 2001250008076066992
+INFO:toptechtool:Write: Such a foto is justmakes me feel great, it's great, we really like it!! ^^. #1.
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Trying to comment: 2001259419112831218
+INFO:topmodel_accessories:Write: Wow, what a shot is really amazing, we really like this kind of things!! :). #1.
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:    >>>Waiting for database to populate before unfollowing (progress 1 /20)
+INFO:toptechtool:Will try to populate using recent feed
+INFO:toptechtool:toptechtool : Get media id on recent feed
+INFO:toptechtool:Media in recent feed = 12
+INFO:toptechtool:Inserted user the_yass_now_store from recent feed
+INFO:toptechtool:Inserted user impressive.idea from recent feed
+INFO:toptechtool:Inserted user grabitstoreonline from recent feed
+INFO:toptechtool:Inserted user tiotesla from recent feed
+INFO:toptechtool:Inserted user _bad_comedy_ from recent feed
+INFO:toptechtool:Inserted user space_and_fantasy from recent feed
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:    >>>Waiting for database to populate before unfollowing (progress 16 /20)
+INFO:topmodel_accessories:Will try to populate using recent feed
+INFO:topmodel_accessories:topmodel_accessories : Get media id on recent feed
+INFO:topmodel_accessories:Media in recent feed = 12
+INFO:topmodel_accessories:Inserted user yayafashion_desings from recent feed
+INFO:topmodel_accessories:Notice: could not populate from recent feed
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Trying to unfollow: 193205926
+INFO:topmodel_accessories:Unfollow: 193205926 #1 of 1.
+INFO:topmodel_accessories:Pausing for 5 seconds... 1 of 1
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Exit Program... GoodBye
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:toptechtool:Trying to unfollow: 1206786707
+INFO:toptechtool:Unfollow: 1206786707 #1 of 1.
+INFO:toptechtool:Pausing for 15 seconds... 1 of 1
+INFO:toptechtool:Exit Program... GoodBye
+INFO:toptechtool:Checking for updates...
+INFO:toptechtool:>>> UPDATE AVAILABLE <<< Please update Instabot. You are running an older version.
+INFO:toptechtool:Instabot v1.2.1/0 started at 17.03.2019 02:18:
+INFO:toptechtool:Found session file TopTechTool.session
+INFO:toptechtool:toptechtool login success!
+
+INFO:toptechtool:Saving cookies to session file TopTechTool.session
+INFO:toptechtool:Get Media by tag: tecnología
+INFO:topmodel_accessories:Checking for updates...
+INFO:topmodel_accessories:>>> UPDATE AVAILABLE <<< Please update Instabot. You are running an older version.
+INFO:topmodel_accessories:Instabot v1.2.1/0 started at 17.03.2019 02:18:
+INFO:topmodel_accessories:Trying to login as topmodel_accessories...
+INFO:toptechtool:Removing already liked medias..
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:Trying to like media: 2001259052428692734
+INFO:toptechtool:Liked: 2001259052428692734. Like #1.
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:Trying to follow: 7200838988
+INFO:toptechtool:Followed: 7200838988 #1.
+INFO:topmodel_accessories:topmodel_accessories login success!
+
+INFO:topmodel_accessories:Saving cookies to session file TopModel_Accessories.session
+INFO:topmodel_accessories:Get Media by tag: clothe
+INFO:topmodel_accessories:Removing already liked medias..
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:Trying to like media: 2001258231879587106
+INFO:topmodel_accessories:Liked: 2001258231879587106. Like #1.
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:Trying to follow: 4929493208
+INFO:topmodel_accessories:Followed: 4929493208 #1.
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:toptechtool:Trying to comment: 2001258323416882706
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Trying to comment: 2001251683641119521
+INFO:topmodel_accessories:Write: Wow, what a foto feels very cool....thanks a lot for this!!! =). #1.
+INFO:toptechtool:Write: Wow fotazo me parece muy buena, me ha encantado!!! ^^. #1.
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:toptechtool : Get media id on recent feed
+INFO:toptechtool:Media in recent feed = 12
+INFO:toptechtool:Trying to unfollow #1:
+INFO:toptechtool:Getting user info : martintallarico
+INFO:toptechtool:Checking user info..
+INFO:toptechtool:Follower : 543
+INFO:toptechtool:Following : 634
+INFO:toptechtool:Media : 213
+INFO:toptechtool:   >>>This is a normal account
+INFO:toptechtool:   >>>This user is active
+INFO:toptechtool:   >>>This account is NOT following you
+INFO:toptechtool:   >>>You are following this account
+INFO:toptechtool:martintallarico
+INFO:toptechtool:Unfollowed: 511140135 #1.
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:    >>>Waiting for database to populate before unfollowing (progress 1 /20)
+INFO:topmodel_accessories:Will try to populate using recent feed
+INFO:topmodel_accessories:topmodel_accessories : Get media id on recent feed
+INFO:topmodel_accessories:Media in recent feed = 12
+INFO:topmodel_accessories:Notice: could not populate from recent feed
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:Trying to like media: 2001239993377227508
+INFO:toptechtool:Liked: 2001239993377227508. Like #2.
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:Trying to like media: 2001137273479114351
+INFO:topmodel_accessories:Liked: 2001137273479114351. Like #2.
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:    >>>Waiting for database to populate before unfollowing (progress 1 /20)
+INFO:topmodel_accessories:Will try to populate using recent feed
+INFO:topmodel_accessories:topmodel_accessories : Get media id on recent feed
+INFO:topmodel_accessories:Media in recent feed = 12
+INFO:topmodel_accessories:Notice: could not populate from recent feed
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:Trying to like media: 2001190802697903321
+INFO:toptechtool:Liked: 2001190802697903321. Like #3.
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:Trying to like media: 2001028590130210714
+INFO:topmodel_accessories:Liked: 2001028590130210714. Like #3.
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:Trying to follow: 7273762952
+INFO:topmodel_accessories:Followed: 7273762952 #2.
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:Trying to follow: 1769625634
+INFO:toptechtool:Followed: 1769625634 #2.
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:Trying to unfollow #2:
+INFO:toptechtool:Getting user info : planoaltoconsultoria
+INFO:toptechtool:Checking user info..
+INFO:toptechtool:Follower : 30
+INFO:toptechtool:Following : 25
+INFO:toptechtool:Media : 9
+INFO:toptechtool:   >>>This is a normal account
+INFO:toptechtool:   >>>This user is active
+INFO:toptechtool:   >>>This account is NOT following you
+INFO:toptechtool:   >>>You are following this account
+INFO:toptechtool:planoaltoconsultoria
+INFO:toptechtool:Unfollowed: 10736120951 #2.
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:    >>>Waiting for database to populate before unfollowing (progress 2 /20)
+INFO:topmodel_accessories:Will try to populate using recent feed
+INFO:topmodel_accessories:topmodel_accessories : Get media id on recent feed
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Media in recent feed = 12
+INFO:topmodel_accessories:Notice: could not populate from recent feed
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:Get Media by tag: tecnología
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:Removing already liked medias..
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:Get Media by tag: fashion
+INFO:topmodel_accessories:Removing already liked medias..
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------
+INFO:topmodel_accessories:# ------------------- Like -------------------
+INFO:topmodel_accessories:# ------------------- Follow -------------------
+INFO:topmodel_accessories:# ------------------- Unfollow -------------------
+INFO:topmodel_accessories:# ------------------- Comment -------------------
+INFO:toptechtool:# ------------------- Like -------------------
+INFO:toptechtool:# ------------------- Follow -------------------
+INFO:toptechtool:# ------------------- Unfollow -------------------
+INFO:toptechtool:# ------------------- Comment -------------------

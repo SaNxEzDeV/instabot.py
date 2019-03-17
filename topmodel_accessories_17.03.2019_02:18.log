@@ -1,0 +1,310 @@
+2019-03-17 02:18:52,264 - topmodel_accessories - Checking for updates...
+2019-03-17 02:18:52,654 - topmodel_accessories - >>> UPDATE AVAILABLE <<< Please update Instabot. You are running an older version.
+2019-03-17 02:18:52,654 - topmodel_accessories - Instabot v1.2.1/0 started at 17.03.2019 02:18:
+2019-03-17 02:18:52,654 - topmodel_accessories - Trying to login as topmodel_accessories...
+2019-03-17 02:18:56,297 - topmodel_accessories - topmodel_accessories login success!
+
+2019-03-17 02:18:56,297 - topmodel_accessories - Saving cookies to session file TopModel_Accessories.session
+2019-03-17 02:18:56,300 - topmodel_accessories - Get Media by tag: clothe
+2019-03-17 02:18:58,178 - topmodel_accessories - Removing already liked medias..
+2019-03-17 02:18:58,180 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:18:58,180 - topmodel_accessories - Trying to like media: 2001258231879587106
+2019-03-17 02:18:58,703 - topmodel_accessories - Liked: 2001258231879587106. Like #1.
+2019-03-17 02:18:58,703 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:18:58,703 - topmodel_accessories - Trying to follow: 4929493208
+2019-03-17 02:18:59,240 - topmodel_accessories - Followed: 4929493208 #1.
+2019-03-17 02:19:00,088 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:00,089 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:00,406 - topmodel_accessories - Trying to comment: 2001251683641119521
+2019-03-17 02:19:01,047 - topmodel_accessories - Write: Wow, what a foto feels very cool....thanks a lot for this!!! =). #1.
+2019-03-17 02:19:06,052 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:06,052 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:06,052 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:06,052 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:11,058 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:11,058 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:11,058 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:11,058 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:16,063 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:16,064 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:16,064 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:16,064 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:21,069 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:21,069 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:21,069 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:21,069 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:26,075 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:26,075 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:26,075 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:26,075 - topmodel_accessories -     >>>Waiting for database to populate before unfollowing (progress 1 /20)
+2019-03-17 02:19:26,076 - topmodel_accessories - Will try to populate using recent feed
+2019-03-17 02:19:26,076 - topmodel_accessories - topmodel_accessories : Get media id on recent feed
+2019-03-17 02:19:27,091 - topmodel_accessories - Media in recent feed = 12
+2019-03-17 02:19:27,091 - topmodel_accessories - Notice: could not populate from recent feed
+2019-03-17 02:19:27,091 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:32,097 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:32,097 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:32,097 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:32,097 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:37,103 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:37,103 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:37,103 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:37,103 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:42,108 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:42,108 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:42,108 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:42,109 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:47,114 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:47,114 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:47,114 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:47,114 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:52,119 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:52,119 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:52,120 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:52,120 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:19:57,125 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:19:57,125 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:19:57,125 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:19:57,125 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:02,130 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:02,131 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:02,131 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:02,131 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:07,136 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:07,136 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:07,136 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:07,136 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:12,142 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:12,142 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:12,142 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:12,142 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:17,147 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:17,148 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:17,148 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:17,148 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:22,153 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:22,153 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:22,153 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:22,153 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:27,159 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:27,159 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:27,159 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:27,159 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:32,164 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:32,164 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:32,165 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:32,165 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:37,170 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:37,170 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:37,170 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:37,170 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:42,175 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:42,176 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:42,176 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:42,176 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:47,181 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:47,181 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:47,181 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:47,181 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:52,187 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:52,187 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:52,187 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:52,187 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:20:57,192 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:20:57,192 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:20:57,192 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:20:57,193 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:02,198 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:02,198 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:02,198 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:02,198 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:07,203 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:07,204 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:07,204 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:07,204 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:12,209 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:12,209 - topmodel_accessories - Trying to like media: 2001137273479114351
+2019-03-17 02:21:12,715 - topmodel_accessories - Liked: 2001137273479114351. Like #2.
+2019-03-17 02:21:12,716 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:12,716 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:12,716 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:17,721 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:17,721 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:17,721 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:17,721 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:22,727 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:22,727 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:22,727 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:22,727 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:27,731 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:27,731 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:27,731 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:27,731 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:32,732 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:32,732 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:32,732 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:32,732 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:37,732 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:37,733 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:37,733 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:37,733 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:42,733 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:42,735 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:42,735 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:42,735 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:47,740 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:47,740 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:47,740 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:47,740 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:52,746 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:52,746 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:52,746 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:52,746 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:21:57,751 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:21:57,751 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:21:57,751 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:21:57,751 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:02,757 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:02,757 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:02,757 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:02,757 - topmodel_accessories -     >>>Waiting for database to populate before unfollowing (progress 1 /20)
+2019-03-17 02:22:02,757 - topmodel_accessories - Will try to populate using recent feed
+2019-03-17 02:22:02,757 - topmodel_accessories - topmodel_accessories : Get media id on recent feed
+2019-03-17 02:22:03,718 - topmodel_accessories - Media in recent feed = 12
+2019-03-17 02:22:03,718 - topmodel_accessories - Notice: could not populate from recent feed
+2019-03-17 02:22:03,718 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:08,723 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:08,724 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:08,724 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:08,724 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:13,729 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:13,730 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:13,730 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:13,730 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:18,736 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:18,736 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:18,736 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:18,736 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:23,741 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:23,742 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:23,742 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:23,742 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:28,744 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:28,745 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:28,745 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:28,745 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:33,745 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:33,745 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:33,746 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:33,746 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:38,746 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:38,746 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:38,746 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:38,747 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:43,747 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:43,747 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:43,747 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:43,747 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:48,748 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:48,748 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:48,748 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:48,748 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:53,749 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:53,749 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:53,749 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:53,749 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:22:58,750 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:22:58,750 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:22:58,750 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:22:58,750 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:03,751 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:03,751 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:03,751 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:03,751 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:08,751 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:08,752 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:08,752 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:08,752 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:13,753 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:13,753 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:13,753 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:13,753 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:18,754 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:18,754 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:18,754 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:18,754 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:23,755 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:23,755 - topmodel_accessories - Trying to like media: 2001028590130210714
+2019-03-17 02:23:24,514 - topmodel_accessories - Liked: 2001028590130210714. Like #3.
+2019-03-17 02:23:24,515 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:24,515 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:24,515 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:29,520 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:29,520 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:29,520 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:29,520 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:34,526 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:34,526 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:34,526 - topmodel_accessories - Trying to follow: 7273762952
+2019-03-17 02:23:35,290 - topmodel_accessories - Followed: 7273762952 #2.
+2019-03-17 02:23:37,171 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:37,171 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:42,177 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:42,177 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:42,177 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:42,177 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:47,182 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:47,183 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:47,183 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:47,183 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:52,188 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:52,188 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:52,188 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:52,188 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:23:57,194 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:23:57,194 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:23:57,194 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:23:57,194 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:02,199 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:02,199 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:02,200 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:02,200 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:07,205 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:07,206 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:07,206 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:07,206 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:12,212 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:12,212 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:12,212 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:12,212 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:17,216 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:17,216 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:17,216 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:17,216 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:22,221 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:22,221 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:22,222 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:22,222 - topmodel_accessories -     >>>Waiting for database to populate before unfollowing (progress 2 /20)
+2019-03-17 02:24:22,222 - topmodel_accessories - Will try to populate using recent feed
+2019-03-17 02:24:22,222 - topmodel_accessories - topmodel_accessories : Get media id on recent feed
+2019-03-17 02:24:23,998 - topmodel_accessories - Media in recent feed = 12
+2019-03-17 02:24:23,998 - topmodel_accessories - Notice: could not populate from recent feed
+2019-03-17 02:24:23,998 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:29,003 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:29,004 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:29,004 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:29,004 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:34,009 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:34,009 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:34,009 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:34,009 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:39,015 - topmodel_accessories - Get Media by tag: fashion
+2019-03-17 02:24:40,846 - topmodel_accessories - Removing already liked medias..
+2019-03-17 02:24:40,847 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:40,848 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:40,848 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:40,848 - topmodel_accessories - # ------------------- Comment -------------------
+2019-03-17 02:24:45,853 - topmodel_accessories - # ------------------- Like -------------------
+2019-03-17 02:24:45,853 - topmodel_accessories - # ------------------- Follow -------------------
+2019-03-17 02:24:45,853 - topmodel_accessories - # ------------------- Unfollow -------------------
+2019-03-17 02:24:45,853 - topmodel_accessories - # ------------------- Comment -------------------
