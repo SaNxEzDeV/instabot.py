@@ -114,38 +114,25 @@ def setupinteractive(config, config_location="instabot.config.ini"):
 
     config["DEFAULT"]["comment_list"] = json.dumps(
         [
-            ["this", "the", "your"],
-            ["photo", "picture", "pic", "shot", "snapshot"],
-            ["is", "looks", "feels", "is really"],
+            ["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"],
+            
+            ["photo", "imagen", "pic", "shot", "snapshot", "caption", "message"],
+
+            ["is", "looks", "feels", "is really", "blows my mind, it's", "is just", "makes me feel great, it's"],
+
             [
-                "great",
-                "super",
-                "good",
-                "very good",
-                "good",
-                "wow",
-                "WOW",
-                "cool",
-                "GREAT",
-                "magnificent",
-                "magical",
-                "very cool",
-                "stylish",
-                "beautiful",
-                "so beautiful",
-                "so stylish",
-                "so professional",
-                "lovely",
-                "so lovely",
-                "very lovely",
-                "glorious",
-                "so glorious",
-                "very glorious",
-                "adorable",
-                "excellent",
-                "amazing",
+                "great, thanks for sharing this", "super, thanks for sharing, we love it", 
+                "good, thanks for that", "very good, we really like it", "super good, glad to see things like this",
+                "wow... thanks for this", "WOW....thanks a lot for this", "cool thanks for sharing",
+                "GREAT, we really like it","magnificent, we really like it", "magical, thanks for sharing",
+                "very cool....thanks a lot for this", "stylish", "beautiful", "so beautiful",
+                "so professional, glad to see things like that", "lovely, we really like it", "incredible, awesome to see things like that", 
+                "excellent, thanks a lot for this", "amazing, we really like this kind of things"
             ],
+
             [".", "..", "...", "!", "!!", "!!!"],
+            
+            ["=)", ":)", ":-)", "^^"],
         ]
     )
 

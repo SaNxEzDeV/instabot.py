@@ -15,3 +15,4 @@ unfollow_selebgram: false
 unfollow_probably_fake: true
 unfollow_inactive: true
 unfollow_recent_feed: false
+verbosity: 2

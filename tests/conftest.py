@@ -26,7 +26,8 @@ def bot(tmp_path, cwd):
             ('file', {'path': cwd + '/files/instabot.config.yml'}),
         ]
     )})
-    logging.basicConfig(level=logging.DEBUG)
+    # filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s'
+    logging.basicConfig(,format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S', level=logg  ing.DEBUG)
     return InstaBot(**_config.as_dict(),
                     session_file=str(tmp_path / "requests.session"),
                     database={
