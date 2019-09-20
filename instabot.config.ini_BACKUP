@@ -1,0 +1,73 @@
+[DEFAULT]
+username = none
+password = none
+like_per_day = 709
+comments_per_day = 31
+max_like_for_one_tag = 36
+follow_per_day = 260
+follow_time = 36000
+unfollow_per_day = 247
+unfollow_break_min = 3
+unfollow_break_max = 17
+log_mod = 0
+proxy = 
+unfollow_selebgram = False
+unfollow_probably_fake = True
+unfollow_inactive = True
+unfollow_recent_feed = False
+comment_list = [["this", "the", "your"], ["photo", "picture", "pic", "shot", "snapshot"], ["is", "looks", "feels", "is really"], ["great", "super", "good", "very good", "good", "wow", "WOW", "cool", "GREAT", "magnificent", "magical", "very cool", "stylish", "beautiful", "so beautiful", "so stylish", "so professional", "lovely", "so lovely", "very lovely", "glorious", "so glorious", "very glorious", "adorable", "excellent", "amazing"], [".", "..", "...", "!", "!!", "!!!"]]
+tag_list = ["follow4follow", "f4f", "cute", "l:212999109"]
+tag_blacklist = ["rain", "thunderstorm"]
+unwanted_username_list = ["second", "stuff", "art", "project", "love", "life", "food", "blog", "free", "keren", "photo", "graphy", "indo", "travel", "art", "shop", "store", "sex", "toko", "jual", "online", "murah", "jam", "kaos", "case", "baju", "fashion", "corp", "tas", "butik", "grosir", "karpet", "sosis", "salon", "skin", "care", "cloth", "tech", "rental", "kamera", "beauty", "express", "kredit", "collection", "impor", "preloved", "follow", "follower", "gain", ".id", "_id", "bags"]
+unfollow_whitelist = ["example_user_1", "example_user_2"]
+
+[topmodel_accessories]
+username = topmodel_accessories
+password = 
+like_per_day = 200
+comments_per_day = 20
+max_like_for_one_tag = 20
+follow_per_day = 250
+follow_time = 54000
+log_mod = 2
+unfollow_per_day = 150
+tag_list = ["moda", "fashion", "accesorios", "complementos", "mujer", "vestido", "tacones", "mujeres", "ropa", "accessories", "women", "model", "clothe", "dress"]
+unfollow_selebgram = False
+unfollow_probably_fake = True
+unfollow_inactive = True
+unfollow_recent_feed = False
+comment_list = [["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"], ["foto","imagen", "pic", "shot", "snapshot", "caption", "message"], ["is", "looks", "feels", "is really", "blows my mind, it's", "is just", "makes me feel great, it's"], ["great, thanks for sharing this", "super, thanks for sharing, we love it", "good, thanks for that", "very good, we really like it", "super good, glad to see things like this","wow... thanks for this", "WOW....thanks a lot for this", "cool thanks for sharing","GREAT, we really like it","magnificent, we really like it", "magical, thanks for sharing","very cool....thanks a lot for this", "stylish", "beautiful", "so beautiful","so professional, glad to see things like that", "lovely, we really like it", "incredible, awesome to see things like that", "excellent, thanks a lot for this", "amazing, we really like this kind of things"], [".", "..", "...", "!", "!!", "!!!"], ["=)", ":)", ":-)", "^^"] ]
+
+[toptechtool]
+username = toptechtool
+password = 
+like_per_day = 200
+comments_per_day = 20
+max_like_for_one_tag = 20
+follow_per_day = 300
+follow_time = 54000
+log_mod = 2
+unfollow_per_day = 150
+tag_list = ["technologies", "tecnologia", "innovacion", "robots", "drone", "ingenieria", "techworld", "tech", "future", "gadgets", "smarthome", "devices", "futurism", "engineering", "dispositivos"]
+unfollow_selebgram = False
+unfollow_probably_fake = True
+unfollow_inactive = True
+unfollow_recent_feed = False
+comment_list = [["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"], ["foto","imagen", "pic", "shot", "snapshot", "caption", "message"], ["is", "looks", "feels", "is really", "blows my mind, it's", "is just", "makes me feel great, it's"], ["great, thanks for sharing this", "super, thanks for sharing, we love it", "good, thanks for that", "very good, we really like it", "super good, glad to see things like this", "wow... thanks for this", "WOW....thanks a lot for this", "cool thanks for sharing","GREAT, we really like it","magnificent, we really like it", "magical, thanks for sharing","very cool....thanks a lot for this", "stylish", "beautiful", "so beautiful","so professional, glad to see things like that", "lovely, we really like it", "incredible, awesome to see things like that", "excellent, thanks a lot for this", "amazing, we really like this kind of things"], [".", "..", "...", "!", "!!", "!!!"], ["=)", ":)", ":-)", "^^"] ]
+
+[amperio_shop]
+username = amperio_shop
+password = 
+like_per_day = 100
+comments_per_day = 50
+max_like_for_one_tag = 10
+follow_per_day = 250
+follow_time = 54000
+log_mod = 2
+unfollow_per_day = 150
+tag_list = ["London","ropa","camisetas","modelo","modelos","estilismo","outfit","moda","tshirtlovers","design","menswear","teeshirts","accessories","instafashion","clothes","cool","mensfashion","hoodie","urbanfashion","tshirtdesigns", "streetwear","urbanwear","womenfashion","beautiful","instafashion","cute","lifestyle"]
+unfollow_selebgram = False
+unfollow_probably_fake = True
+unfollow_inactive = True
+unfollow_recent_feed = False
+comment_list = [["This", "What a", "Such a", "That", "Wow, This", "Wow, what a"], ["foto","imagen", "pic", "shot", "snapshot", "caption", "message"],["is", "looks", "feels", "is really", "blows my mind, it's", "is just", "makes me feel great, it's"], ["great, thanks for sharing this","super, thanks for sharing, we love it", "good, thanks for that", "very good, we really like it", "super good, glad to see things like this","wow... thanks for this", "WOW....thanks a lot for this", "cool thanks for sharing","GREAT, we really like it","magnificent, we really like it","magical, thanks for sharing","very cool....thanks a lot for this", "stylish", "beautiful", "so beautiful","so professional, glad to see things like that","lovely, we really like it", "incredible, awesome to see things like that", "excellent, thanks a lot for this", "amazing, we really like this kind of things"],[".", "..", "...", "!", "!!", "!!!"], ["=)", ":)", ":-)", "^^"] ]
